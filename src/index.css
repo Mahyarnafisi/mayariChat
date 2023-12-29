@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #006fee;
+  --color-primary-tint: #cce3fd;
+  --color-secondary: #9353d3;
+  --color-secondary-tint: #e4d4f4;
+  --color-tertiary: #f31260;
+  --color-tertiary-tint: #fdd0df;
+  --color-success: #17c964;
+  --color-success-tint: #d1f4e0;
+  --color-warning: #f5a524;
+  --color-warning-tint: #fbdba7;
+
+  --color-gray-900: #18181b;
+  --color-gray-800: #27272a;
+  --color-gray-700: #3f3f46;
+  --color-gray-600: #52525b;
+  --color-gray-500: #71717a;
+  --color-gray-400: #a1a1aa;
+  --color-gray-300: #d4d4d8;
+  --color-gray-200: #e4e4e7;
+  --color-gray-100: #fafafa;
+
+  --color-orange-shade: #62420e;
+  --color-orange-900: #f5a524;
+  --color-orange-tint: #fbdba7;
+
+  --color-blue-shade: #002e62;
+  --color-blue-900: #005bc4;
+  --color-blue-800: #006fee;
+  --color-blue-700: #338ef7;
+  --color-blue-600: #66aaf9;
+  --color-blue-500: #99c7fb;
+  --color-blue-tint: #cce3fd;
+
+  --color-cyan-shade: #053b48;
+  --color-cyan-900: #06b7db;
+  --color-cyan-800: #7ee7fc;
+  --color-cyan-700: #a5eefd;
+  --color-cyan-600: #c3f4fd;
+  --color-cyan-tint: #d7f8fe;
+
+  --color-purple-shade: #301050;
+  --color-purple-900: #7828c8;
+  --color-purple-800: #9353d3;
+  --color-purple-700: #ae7ede;
+  --color-purple-tint: #c9a9e9;
+
+  --color-green-shade: #052814;
+  --color-green-900: #17c964;
+  --color-green-800: #45d483;
+  --color-green-700: #74dfa2;
+  --color-green-tint: #a2e9c1;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /* font-size: 62.5%; */
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
