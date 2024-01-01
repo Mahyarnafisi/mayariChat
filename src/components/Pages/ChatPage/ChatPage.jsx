@@ -1,10 +1,13 @@
 import React from "react";
 import Styles from "./ChatPage.module.css";
+import ChatPanel from "./ChatPanel/CHatPanel";
+import ChatPageNavbar from "./ChatPageNavbar/ChatPageNavbar";
 
 function ChatPage() {
   return (
     <div className={Styles.chatPage}>
-      <h1 className="text-green-400">chat page</h1>
+      <ChatPageNavbar />
+      <ChatPanel />
     </div>
   );
 }

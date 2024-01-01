@@ -9,3 +9,7 @@
   background-color: transparent;
   position: relative;
 }
+
+.homePage button svg {
+  font-size: var(--icon-s-sm);
+}

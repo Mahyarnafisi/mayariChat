@@ -54,6 +54,10 @@
   --color-green-800: #45d483;
   --color-green-700: #74dfa2;
   --color-green-tint: #a2e9c1;
+
+  --icon-s-sm: 1.2rem;
+  --icon-s-md: 1.8rem;
+  --icon-s-lg: 2.6rem;
 }
 
 *,
