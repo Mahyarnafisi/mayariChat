@@ -1,9 +1,10 @@
 import React from "react";
+import MessageBlock from "../../../../../UI/MessageBlock/MessageBlock";
 
 function ChatPool() {
   return (
     <div className="h-full overflow-y">
-      <p className="text-8xl">text message</p>
+      <MessageBlock />
     </div>
   );
 }

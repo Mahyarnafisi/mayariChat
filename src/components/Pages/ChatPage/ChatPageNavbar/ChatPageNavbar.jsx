@@ -7,9 +7,9 @@ import { useNavigate } from "react-router-dom";
 function ChatPageNavbar() {
   const navigate = useNavigate();
   return (
-    <nav className="w-full">
-      <Navbar className="w-full border-1 border-gray-700 bg-transparent">
-        <NavbarContent className="">
+    <nav className="w-svw">
+      <Navbar className=" w-full border-1 border-gray-700 bg-transparent">
+        <NavbarContent className="flex align-middle justify-between">
           <NavbarItem>
             <h1 className="text-white font-mono font-black text-xl">
               <ViewInArOutlinedIcon /> | MayariChat
