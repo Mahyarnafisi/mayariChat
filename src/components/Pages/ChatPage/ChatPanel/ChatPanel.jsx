@@ -1,9 +1,9 @@
-import React from "react";
 import { Card, CardBody, CardFooter, CardHeader, Divider } from "@nextui-org/react";
-import ChatPanelFooter from "./ChatPanelFooter/ChatPanelFooter";
+import React from "react";
 import Styles from "./ChatPanel.module.css";
-import LiveUsers from "./ChatPanelHeader/LiveUsers/LiveUsers";
 import ChatPool from "./ChatPanelBody/ChatPool/ChatPool";
+import ChatPanelFooter from "./ChatPanelFooter/ChatPanelFooter";
+import LiveUsers from "./ChatPanelHeader/LiveUsers/LiveUsers";
 
 function ChatPanel() {
   return (
@@ -13,9 +13,11 @@ function ChatPanel() {
           <LiveUsers />
         </CardHeader>
         <Divider />
+
         <CardBody className="bg-slate-200 ">
           <ChatPool />
         </CardBody>
+
         <Divider />
         <CardFooter>
           <ChatPanelFooter />

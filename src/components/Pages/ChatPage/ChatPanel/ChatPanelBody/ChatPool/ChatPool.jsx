@@ -5,6 +5,10 @@ function ChatPool() {
   return (
     <div className="h-full overflow-y">
       <MessageBlock />
+      <MessageBlock />
+      <MessageBlock />
+      <MessageBlock />
+      <MessageBlock />
     </div>
   );
 }
