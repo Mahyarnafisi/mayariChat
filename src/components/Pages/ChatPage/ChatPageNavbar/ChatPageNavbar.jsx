@@ -1,21 +1,26 @@
 import { Button, Navbar, NavbarContent, NavbarItem } from "@nextui-org/react";
 import React from "react";
 import CloseRoundedIcon from "@mui/icons-material/CloseRounded";
+import ViewInArOutlinedIcon from "@mui/icons-material/ViewInArOutlined";
+import { useNavigate } from "react-router-dom";
 
 function ChatPageNavbar() {
+  const navigate = useNavigate();
   return (
     <nav className="w-full">
-      <Navbar maxWidth="full" className="border-b- border-gray-800 bg-transparent">
-        <NavbarContent>
+      <Navbar className="w-full border-1 border-gray-700 bg-transparent">
+        <NavbarContent className="">
           <NavbarItem>
-            <h1 className="text-white">Mayari ChatRoom</h1>
+            <h1 className="text-white font-mono font-black text-xl">
+              <ViewInArOutlinedIcon /> | MayariChat
+            </h1>
+          </NavbarItem>
+          <NavbarItem>
+            <Button color="danger" isIconOnly onClick={() => navigate("../login")}>
+              <CloseRoundedIcon />
+            </Button>
           </NavbarItem>
         </NavbarContent>
-        <NavbarItem>
-          <Button color="danger" isIconOnly>
-            <CloseRoundedIcon />
-          </Button>
-        </NavbarItem>
       </Navbar>
     </nav>
   );

@@ -2,5 +2,5 @@
   width: 100%;
   min-width: 20rem;
   max-width: 34rem;
-  height: 80%;
+  height: calc(100% - 8rem);
 }
