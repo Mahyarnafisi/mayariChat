@@ -9,7 +9,7 @@ function LiveUsers() {
   return (
     <section className="flex flex-col gap-2 ">
       <div>
-        <h2>Online Users:</h2>
+        <h2 className="font-semibold">Online Users:</h2>
       </div>
       <div className="flex gap-4">
         <User name="Mahyar" description="online" className="" avatarProps={{ src: `https://i.pravatar.cc/${randomAvatar()}` }} />
