@@ -18,7 +18,7 @@ function ChatPanelFooter() {
           </DropdownItem>
         </DropdownMenu>
       </Dropdown>
-      <Input placeholder="write your message" radius="md" variant="bordered" size="md" />
+      <Input placeholder="write your message" radius="md" variant="bordered" size="md" isClearable />
       <Button size="lg" color="primary" className="rounded-md" isIconOnly endContent={<SendRoundedIcon />}></Button>
     </div>
   );
