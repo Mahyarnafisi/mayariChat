@@ -8,13 +8,13 @@ import LiveUsers from "./ChatPanelHeader/LiveUsers/LiveUsers";
 function ChatPanel() {
   return (
     <div className={Styles.chatPanel}>
-      <Card className="m-8 h-full rounded-lg ">
-        <CardHeader>
+      <Card className="m-8 h-full ">
+        <CardHeader className="shadow-medium">
           <LiveUsers />
         </CardHeader>
         <Divider />
 
-        <CardBody className="bg-slate-200 ">
+        <CardBody className="bg-white ">
           <ChatPool />
         </CardBody>
 
