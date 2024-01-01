@@ -7,12 +7,12 @@ import LiveUsers from "./ChatPanelHeader/LiveUsers/LiveUsers";
 function ChatPanel() {
   return (
     <div className={Styles.chatPanel}>
-      <Card className="m-8 h-96 ">
-        <CardHeader className="p-4">
+      <Card className="m-8 h-full ">
+        <CardHeader>
           <LiveUsers />
         </CardHeader>
         <Divider />
-        <CardBody className="bg-slate-300 h-full">
+        <CardBody className="bg-slate-100 h-32 ">
           <p>chat page</p>
         </CardBody>
         <Divider />

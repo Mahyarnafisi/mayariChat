@@ -1,4 +1,9 @@
 .chatPage {
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+  border: 1px solid red;
+  flex-direction: column;
 }
