@@ -7,12 +7,12 @@ function LiveUsers() {
     return ranNum;
   };
   return (
-    <section className="flex flex-col gap-2 ">
+    <section className="flex flex-col gap-2 bg-neutral-100 w-full rounded-xl p-2 ">
       <div>
         <h2 className="font-semibold">Online Users:</h2>
       </div>
       <div className="flex gap-4">
-        <User name="YamunNu" description="online" className="" avatarProps={{ src: `https://i.pravatar.cc/${randomAvatar()}` }} />
+        <User name="YamunNu" description="online" className="font-semibold" avatarProps={{ src: `https://i.pravatar.cc/${randomAvatar()}` }} />
         <User name="Xian" description="online" avatarProps={{ src: `https://i.pravatar.cc/${randomAvatar()}` }} />
         <User name="Tenuity" description="online" avatarProps={{ src: `https://i.pravatar.cc/${randomAvatar()}` }} />
       </div>
